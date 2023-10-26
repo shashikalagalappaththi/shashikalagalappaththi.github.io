@@ -439,7 +439,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -720,6 +720,20 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+/*--------------------------------------------------------------
+# Recommendations
+--------------------------------------------------------------*/
+.recommendations-wrap {
+  padding: 10px 30px 30px 40px;
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: rgba(237, 237, 237, 0.8);
+}
+
+
 
 /*--------------------------------------------------------------
 # Services
